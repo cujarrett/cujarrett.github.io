@@ -110,9 +110,9 @@ aside {
     }
     @media (min-width: 768px) {
         background-color: transparent;
-        border-color: rgba(white, .3);
+        border-color: rgba(white, 0);
         .navbar-header .navbar-brand {
-            color: rgba(white, .7);
+            color: rgba(white, 1);
             &:hover,
             &:focus {
                 color: white;
@@ -120,7 +120,7 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .7);
+            color: rgba(white, 1);
             &:hover {
                 color: white;
             }
