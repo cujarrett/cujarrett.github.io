@@ -46,10 +46,6 @@ p {
   background-color: $theme-primary;
 }
 
-.bg-secondary {
-  background-color: #292c33;
-}
-
 .bg-dark {
   background-color: $theme-dark;
   color: white;
@@ -426,4 +422,32 @@ width:250px;
   line-height:35px;
   color:#ffffff;
   color:rgba(0, 0, 0, 0.4);
+}
+
+// .container-split {
+//   width: 100%;
+//   height: auto;
+//   background: aqua;
+//   margin: auto;
+//   // padding: 10px;
+// }
+
+.about {
+  height: auto;
+  overflow: auto;
+  background-color: #292c33;
+  padding: 100px 0px;
+}
+
+.left {
+  width: 50%;
+  background: red;
+  float: left;
+  padding: 2%;
+}
+.right {
+  width: 50%;
+  background: rgb(55, 255, 0);
+  float: left;
+  padding: 2%;
 }

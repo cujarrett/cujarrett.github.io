@@ -1,1 +1,8 @@
 .DS_Store
+Gemfile.lock
+
+# Local Site Directories
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
