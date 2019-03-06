@@ -12,3 +12,7 @@ See it live in action at <https://cujarrett.github.io>
 - Start by adding your info in `_config.yml`
 - In `_layouts/front.html` reorder or remove section as you prefer.
 
+To Run locally:
+```
+bundle exec jekyll serve
+```
