@@ -18,6 +18,11 @@ hr.light {
   border-color: white;
 }
 
+hr.dark {
+  border-color: #000;
+  padding-bottom: 20px;
+}
+
 a {
   @include transition-all;
   color: $theme-primary;
@@ -73,6 +78,11 @@ aside {
 
 .no-padding {
   padding: 0;
+}
+
+.footer-padding {
+  padding-top: 0px;
+  padding-bottom: 20px;
 }
 
 // Navigation
@@ -217,6 +227,11 @@ header {
 
 .section-heading {
   color: #FFF;
+  margin-top: 0;
+}
+
+.section-heading-dark {
+  color: #000;
   margin-top: 0;
 }
 
@@ -433,7 +448,8 @@ body {
   height: auto;
   overflow: auto;
   background-color: #292c33;
-  padding: 100px 0px;
+  padding-top: 100px;
+  padding-bottom: 80px;
 }
 
 .left {
