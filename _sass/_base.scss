@@ -51,8 +51,16 @@ p {
   color: white;
 }
 
+.text-light-faded {
+  color: rgba(white, .9);
+}
+
 .text-faded {
   color: rgba(white, .7);
+}
+
+.text-faded-more {
+  color: rgba(white, .3);
 }
 
 section {
