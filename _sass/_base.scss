@@ -166,7 +166,6 @@ header {
     .header-content-inner {
       h1 {
         font-weight: 700;
-        text-transform: uppercase;
         margin-top: 0;
         margin-bottom: 0;
         text-align: right;
@@ -356,7 +355,7 @@ body {
   display:block;
   margin-bottom:15px;
   width:100%;
-  background:#eee;
+  background:rgba(255, 255, 255, .9);
   height:35px;
   border-radius:3px;
   -moz-border-radius:3px;
@@ -377,11 +376,10 @@ body {
   position:absolute;
   top:0;
   left:0;
-  width:auto;
+  width:0px;
   font-weight:bold;
   font-size:13px;
   color:#ffffff;
-  background:#6adcfa;
   -webkit-border-top-left-radius:3px;
   -webkit-border-bottom-left-radius:4px;
   -moz-border-radius-topleft:3px;
@@ -408,7 +406,6 @@ body {
 .skillbar-bar {
   height:35px;
   width:0px;
-  background:#6adcfa;
   border-radius:3px;
   -moz-border-radius:3px;
   -webkit-border-radius:3px;
@@ -433,13 +430,11 @@ body {
 
 .left {
   width: 50%;
-  // background: red;
   float: left;
   padding: 2%;
 }
 .right {
   width: 50%;
-  // background: rgb(55, 255, 0);
   float: left;
   padding: 2%;
 }
