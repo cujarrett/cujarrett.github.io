@@ -466,3 +466,21 @@ body {
 .more-about-info a {
   color: #FFF;
 }
+
+@media only screen and (max-width: 1026px) {
+  #conditional-hide {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1026px) {
+  #conditional-full-width {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #conditional-background-offset {
+    background-position: 75%;
+  }
+}
