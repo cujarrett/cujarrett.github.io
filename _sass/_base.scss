@@ -488,3 +488,9 @@ body {
     background-position: 73%;
   }
 }
+
+@media only screen and (max-height: 400px) {
+  #conditional-hide-text {
+    display:none;
+  }
+}
