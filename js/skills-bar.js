@@ -21,11 +21,11 @@ $.fn.isOnScreen = function(){
 
 $(document).ready(function(){
   $(window).scroll(function(){
-    if ($('#about').isOnScreen() && rendered === false) {
+    if ($("#skills-graph").isOnScreen() && rendered === false) {
       jQuery(document).ready(function(){
-        jQuery('.skillbar').each(function(){
-          jQuery(this).find('.skillbar-bar').animate({
-            width:jQuery(this).attr('data-percent')
+        jQuery(".skillbar").each(function(){
+          jQuery(this).find(".skillbar-bar").animate({
+            width:jQuery(this).attr("data-percent")
           },3000);
         });
       });
