@@ -42,7 +42,7 @@ h6 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   margin-bottom: 0px;
 }
@@ -400,7 +400,8 @@ body {
   top:0;
   left:0;
   width:0px;
-  font-size:11px;
+  font-size:12px;
+  font-weight:bold;
   color:#ffffff;
   -webkit-border-top-left-radius:3px;
   -webkit-border-bottom-left-radius:4px;
@@ -408,11 +409,12 @@ body {
   -moz-border-radius-bottomleft:3px;
   border-top-left-radius:3px;
   border-bottom-left-radius:3px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .skillbar-title span {
   display:block;
-  width: 168px;
+  width: 200px;
   padding:0 10px;
   height:35px;
   line-height:35px;
@@ -437,10 +439,11 @@ body {
   position:absolute;
   right:10px;
   top:0;
-  font-size:11px;
+  font-size:12px;
   height:35px;
   line-height:35px;
   color:rgba(0, 0, 0, 1);
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .about {
@@ -464,6 +467,8 @@ body {
 
 .more-about-info a {
   color: #FFF;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
 }
 
 @media only screen and (max-width: 1026px) {
