@@ -89,7 +89,7 @@ aside {
 
 .navbar-default {
   background-color: white;
-  border-color: rgba($theme-dark, .5);
+  border-color: rgba($theme-dark, 1);
   @include sans-serif-font;
   @include transition-all;
   .navbar-header .navbar-brand {
@@ -145,7 +145,7 @@ aside {
     }
     &.affix {
       background-color: white;
-      border-color: rgba($theme-dark, .5);
+      border-color: rgba($theme-dark, 0);
       .navbar-header .navbar-brand {
         color: $theme-primary;
         font-size: 14px;
