@@ -2,11 +2,17 @@
 
 # [https://mattjarrett.dev](https://mattjarrett.dev)
 
-## A Jekyll & Bootstrap static single page portfolio
+## What
+A Jekyll & Bootstrap static single page portfolio. Hosted on GitHub pages for free with SSL/TLS :tada:
 
 This project builds on [volny's theme](https://github.com/volny/creative-theme-jekyll) :raised_hands:
 
-To run locally:
+To install local dependencies to run locally:
+```sh
+bundle install
 ```
+
+To run locally:
+```sh
 bundle exec jekyll serve
 ```
