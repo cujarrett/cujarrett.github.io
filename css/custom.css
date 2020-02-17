@@ -1,0 +1,35 @@
+@media (min-width: 2160) {
+  .custom-visible-xl {
+    display: block !important;
+  }
+  table.custom-visible-xl {
+    display: table;
+  }
+  tr.vcustom-isible-xl {
+    display: table-row !important;
+  }
+  th.custom-visible-xl,
+  td.custom-visible-xl {
+    display: table-cell !important;
+  }
+}
+@media (max-width: 767px) {
+  .custom-hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .custom-hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .custom-hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 2159px) {
+  .custom-hidden-lg {
+    display: none !important;
+  }
+}
