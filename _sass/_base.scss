@@ -465,6 +465,37 @@ body {
   padding: 2%;
 }
 
+.left-certs {
+  width: 20%;
+  height: 100px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.right-certs {
+  width: 80%;
+  height: 100px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.left-certs img {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  height: 100px;
+}
+
+.right-certs h4>a {
+  line-height: 75px;
+  padding-left: 20px;
+}
+
+.certs {
+  height: 220px;
+  margin-top: 20px;
+}
+
 .more-about-info a {
   color: #FFF;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -493,4 +524,8 @@ body {
   #conditional-hide-text {
     display:none;
   }
+}
+
+a, p {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
