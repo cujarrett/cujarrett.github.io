@@ -541,3 +541,14 @@ body {
 a, p {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
+
+a {
+  color: #FFF;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: FFF;
+    color: #000;
+  }
+}
