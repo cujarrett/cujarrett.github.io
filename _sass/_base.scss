@@ -492,10 +492,8 @@ body {
 }
 
 .certs {
-  height: 220px;
-  margin-top: 20px;
+  overflow: auto;
 }
-
 .more-about-info a {
   color: #FFF;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
