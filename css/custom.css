@@ -115,6 +115,14 @@
   padding-bottom: 80px;
 }
 
+.support {
+  height: auto;
+  overflow: auto;
+  background-color: #292c33;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
 .left {
   width: 50%;
   float: left;
@@ -203,6 +211,14 @@ a, p {
 
 a {
   color: #FFF;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.footer-padding {
+  padding-bottom: 20px;
 }
 
 @media (prefers-color-scheme: dark) {
