@@ -227,3 +227,7 @@ a {
     color: #000;
   }
 }
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+  max-height: 370px;
+}
