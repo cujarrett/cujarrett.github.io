@@ -37,8 +37,5 @@
 $theme-primary: #FF0000;
 $theme-dark: #222;
 
-@use "mixins";
-@use "base" with (
-        $theme-primary: $theme-primary,
-        $theme-dark: $theme-dark
-);
+@import "mixins";
+@import "base";
