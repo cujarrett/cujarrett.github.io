@@ -37,8 +37,8 @@
 $theme-primary: #FF0000;
 $theme-dark: #222;
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "mixins",
-        "base"
-;
+@use "mixins";
+@use "base" with (
+        $theme-primary: $theme-primary,
+        $theme-dark: $theme-dark
+);

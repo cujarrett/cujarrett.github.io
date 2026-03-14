@@ -9,13 +9,24 @@ This project builds on [volny's theme](https://github.com/volny/creative-theme-j
 
 This app uses Ruby. If you're on a Mac, I'd suggest using [Homebrew](https://brew.sh/) for installing it.
 
-You can update your Rails version with:
+You can update RubyGems with:
 ```sh
 gem update --system
 ```
 
+If `bundle install` fails with a `cannot load such file ... bundler-<version>/exe/bundle` error, reinstall Bundler:
+```sh
+gem install bundler -v 4.0.8
+```
+
 To install local dependencies to run locally:
 ```sh
+bundle install
+```
+
+To update dependencies:
+```sh
+bundle update
 bundle install
 ```
 
